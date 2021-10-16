@@ -1,7 +1,7 @@
 body {
   font-family: 'Red Hat Display', sans-serif;
   text-align: center;
-  background-color: blue;
+  background-color: #E5ECFF;
   background-color: hsl(225, 100%, 95%);
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
@@ -19,7 +19,6 @@ h1 {
 
 .card-body {
   margin: 80px auto;
-  /* padding-bottom: 40px; */
   border-radius: 20px;
   width: 450px;
   background-color: white;
@@ -31,12 +30,12 @@ h1 {
 
 .order-description {
   font-weight: 500;
-  color: white;
+  color: #7280A7;
   color: hsl(224, 23%, 55%);
 }
 
 .selected-plan {
-  background-color: blue;
+  background-color: #E5ECFF;
   background-color: hsl(225, 100%, 95%);
   padding: 20px;
   border-radius: 12px;
@@ -54,7 +53,7 @@ h1 {
 }
 
 .plan-cost {
-  color: black;
+  color: #7280A7;
   color: hsl(224, 23%, 55%);
   font-weight: 700;
 }
@@ -82,7 +81,7 @@ h1 {
   background-color: transparent;
   border-radius: 10px;
   border-style: none;
-  color: black;
+  color: #1F2F56;
   color: hsl(223, 47%, 23%);
   display: block;
   margin: 10px auto;
@@ -93,7 +92,7 @@ h1 {
 
 .attribution {
   font-size: 12px;
-  color: black;
+  color: #3E52A3;
   color: hsl(228, 45%, 44%);
   position: absolute;
   margin: 20px 10px;
