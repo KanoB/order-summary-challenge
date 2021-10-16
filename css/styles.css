@@ -25,7 +25,7 @@ h1 {
 }
 
 .order-summary {
-  padding: 0 10% 40px;
+  padding: 0 10% 30px;
 }
 
 .order-description {
@@ -35,8 +35,7 @@ h1 {
 }
 
 .selected-plan {
-  background-color: #E5ECFF;
-  background-color: hsl(225, 100%, 95%);
+  background-color: #F8F9FE;
   padding: 20px;
   border-radius: 12px;
   display: flex;
@@ -44,22 +43,31 @@ h1 {
   margin: 20px auto;
 }
 
-.music-icon {}
-
 .plan-detail {
   width: 55%;
   text-align: left;
   margin-left: 30px;
 }
 
+.plan-name {
+  font-weight: 900;
+}
+
 .plan-cost {
   color: #7280A7;
   color: hsl(224, 23%, 55%);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .change-lnk {
   font-weight: 700;
+  font-size: 14px;
+}
+
+.change-lnk:hover {
+  color: #7280A7;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
 }
 
 .proceed-btn {
@@ -69,6 +77,7 @@ h1 {
   color: #E0E8FF;
   font-size: 16px;
   font-weight: 700;
+  font-family: 'Red Hat Display', sans-serif;
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #3829E0;
@@ -86,7 +95,7 @@ h1 {
 }
 
 .proceed-btn:hover {
-  background: #337FED;
+  background: #766CF1;
   border-style: none;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -94,17 +103,23 @@ h1 {
 }
 
 .cancel-btn {
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
   background-color: transparent;
   border-radius: 10px;
   border-style: none;
-  color: #1F2F56;
-  color: hsl(223, 47%, 23%);
+  color: #7280A7;
+  color: hsl(224, 23%, 55%);
   display: block;
   margin: 10px auto;
   width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.cancel-btn:hover {
+  color: black;
 }
 
 .attribution {
