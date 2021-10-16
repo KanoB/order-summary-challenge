@@ -63,17 +63,34 @@ h1 {
 }
 
 .proceed-btn {
-  font-weight: 700;
-  background-color: blue;
-  background-color: hsl(245, 75%, 52%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
-  border-style: none;
-  color: white;
-  margin: 10px auto;
-  display: block;
-  width: 100%;
+  color: #E0E8FF;
+  font-size: 16px;
+  font-weight: 700;
   padding-top: 16px;
   padding-bottom: 16px;
+  background-color: #3829E0;
+  background-color: hsl(245, 75%, 52%);
+  -webkit-box-shadow: 0 16px 16px 0 #E0E8FF;
+  -moz-box-shadow: 0 16px 16px 0 #E0E8FF;
+  box-shadow: 0 16px 16px 0 #E0E8FF;
+  border-style: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.proceed-btn:hover {
+  background: #337FED;
+  border-style: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .cancel-btn {
